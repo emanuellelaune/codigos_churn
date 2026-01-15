@@ -1,1 +1,18 @@
+================================================================================
+RELATÓRIO DE FEATURES
+================================================================================
+
+Total: 11
+
+01. N_UNIQUE_DATES
+02. QTD_REGISTROS_CLIENTE
+03. JA_TENTOU_CANCELAR_max
+04. FREQ_CONTATO_max
+05. QTD_FINANCEIRO_mean
+06. QTD_SUPORTE_TECNICO_mean
+07. QTD_OUTROS_mean
+08. QTD_ADMINISTRATIVO_mean
+09. DAYS_SINCE_LAST
+10. TAXA_CONTATO_DIA
+11. QTD_SOL_LAST_30D
 
