@@ -1,0 +1,56 @@
+==========================================================================================
+RELATÓRIO COMPLETO DE MÉTRICAS - GRADIENT BOOSTING CHURN
+==========================================================================================
+
+CONFIGURAÇÃO DO MODELO
+------------------------------------------------------------------------------------------
+N_Estimators:      200
+Learning_Rate:     0.05
+Max_Depth:         3
+Subsample:         0.8
+Min_Samples_Split: 20
+Min_Samples_Leaf:  10
+Threshold:         0.5
+Random_State:      42
+
+MÉTRICAS DE TREINO
+------------------------------------------------------------------------------------------
+Accuracy:      0.728800
+AUC-ROC:       0.811476
+Precision:     0.725315
+Recall:        0.736533
+F1-Score:      0.730881
+Specificity:   0.721067
+
+Matriz de Confusão (Treino):
+  True Negatives:  1,352
+  False Positives: 523
+  False Negatives: 494
+  True Positives:  1,381
+
+MÉTRICAS DE TESTE
+------------------------------------------------------------------------------------------
+Accuracy:      0.735200
+AUC-ROC:       0.778610
+Precision:     0.738636
+Recall:        0.728000
+F1-Score:      0.733280
+Specificity:   0.742400
+
+Matriz de Confusão (Teste):
+  True Negatives:  464
+  False Positives: 161
+  False Negatives: 170
+  True Positives:  455
+
+COMPARAÇÃO TRAIN vs TEST (OVERFITTING CHECK)
+------------------------------------------------------------------------------------------
+Δ Accuracy:  -0.006400  ✓ OK
+Δ AUC-ROC:   +0.032866  ✓ OK
+Δ F1-Score:  -0.002398  ✓ OK
+
+TAXA DE DETECÇÃO DE CHURN
+------------------------------------------------------------------------------------------
+Treino: 73.7% (1,381 de 1,875)
+Teste:  72.8% (455 de 625)
+
